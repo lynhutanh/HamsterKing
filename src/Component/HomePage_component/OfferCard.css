@@ -1,0 +1,68 @@
+.offer-card {
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+
+}
+.offer-card:hover {
+    transform: scale(1.1); 
+    
+    border-bottom: 5px solid rgb(25, 70, 6);
+
+}
+
+
+
+.special-offer {
+    position: absolute;
+    top: -17px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.image-container {
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.offer-card h3 {
+    font-size: 15px;
+ 
+}
+
+.offer-card button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Thêm hiệu ứng chuyển đổi */
+}
+
+.offer-card button:hover {
+    transform: scale(1.1); 
+    background-color: #ADFF2F; 
+}

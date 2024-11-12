@@ -1,0 +1,194 @@
+.registerPage-main-content {
+    font-family: Aldrich, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #ffffff;
+    min-height: 100vh;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.registerPage-main-content .section_1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.registerPage-main-content .section_2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1000px;
+    align-items: center;
+}
+
+.registerPage-main-content .container {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background-color: #FFCE73;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerPage-main-content .section_2 .content_left {
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.registerPage-main-content form {
+    padding: 20px;
+    width: 100%;
+}
+
+.registerPage-main-content form h3 {
+    text-align: center;
+}
+
+
+
+.registerPage-main-content .form-group label {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.registerPage-main-content .form-group label span {
+    color: red;
+}
+
+
+
+.registerPage-main-content .btn_login {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.registerPage-main-content .btn_regis {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #6aea84;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.registerPage-main-content .btn_login:hover {
+    background-color: #0056b3;
+}
+
+.registerPage-main-content .btn_regis:hover {
+    background-color: #184c25;
+}
+
+.registerPage-main-content .content-right h3 {
+    text-align: center;
+}
+
+.registerPage-main-content .content-right img {
+    width: 350px;
+    height: 350px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.form {
+    --width-of-input: 200px;
+    --border-height: 1px;
+    --border-before-color: rgba(0, 0, 0, 0.39);
+    --border-after-color: #5891ff;
+    --input-hovered-color: #4985e01f;
+    position: relative;
+    width: 100%;
+   }
+   .input {
+    color: #000000;
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+    border-bottom: var(--border-height) 
+    solid var(--border-before-color);
+   }
+   .input-border {
+    position: absolute;
+    background: var(--border-after-color);
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s;
+   }
+   input:hover {
+    background: var(--input-hovered-color);
+   }
+   
+   input:focus {
+    outline: none;
+   }
+   input:focus ~ .input-border {
+    width: 100%;
+   }
+ .form-group {
+    margin-top: 10px;
+ }
+ @media screen and (min-width:740px) and (max-width:1024px) {
+    .registerPage-main-content{
+        margin: 0;
+    }
+ .registerPage-main-content .section_2 .content-right {
+    display: none;
+ }
+ .registerPage-main-content .section_2 .content_left {
+    width: 60%;
+ }
+ .registerPage-main-content .section_2 .content_left form h3{
+    font-size:  30px;
+    padding: 0;
+ }
+}
+@media screen and (max-width:740px) {
+    .registerPage-main-content{
+        margin: 0;
+    }
+    .registerPage-main-content .section_1 h1{
+        font-size: 29px;
+    }
+ .registerPage-main-content .section_2 .content-right {
+    display: none;
+ }
+ .registerPage-main-content .section_2 .content_left {
+    width: 75%;
+ }
+ .registerPage-main-content .section_2 .content_left form h3{
+    font-size:  20px;
+    padding: 0;
+ }
+}

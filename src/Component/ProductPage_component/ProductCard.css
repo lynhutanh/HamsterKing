@@ -1,0 +1,62 @@
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 150px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.product-image {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-title {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.product-rating {
+  font-size: 15px;
+  color: #ffc107;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Canh giữa nội dung bên trong */
+  height: 20px; /* Điều chỉnh chiều cao cho phù hợp */
+}
+
+.product-price {
+  font-size: 15px;
+  color: #d9534f;
+}
+
+.fa-cart-shopping {
+  color: rgb(63, 228, 250);
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-top: 10px;
+}
+
+.fa-cart-shopping:hover {
+  color: rgb(232, 109, 109);
+}
+
+.buy-now {
+  padding: 10px;
+  background-color: rgb(19, 224, 56);
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.buy-now:hover {
+  background-color: rgb(232, 109, 109);
+  cursor: pointer;
+}

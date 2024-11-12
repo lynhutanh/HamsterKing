@@ -1,0 +1,341 @@
+.productPage-main-content {
+  position: relative;
+  margin: 70px;
+  margin-top: 120px;
+}
+
+.productPage-main-content .section-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.productPage-main-content .content-left {
+  width: 20%;
+}
+
+.productPage-main-content .content-middle {
+  width: 50%;
+}
+
+.productPage-main-content .input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.productPage-main-content .input-container i {
+  position: absolute;
+  right: 10px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.productPage-main-content .input-container input {
+  padding: 10px 30px;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid #000000;
+  border-radius: 20px;
+  outline: none;
+  width: 100%;  
+}
+
+.productPage-main-content .input-container input:focus {
+  border: 2px solid #3498db;
+}
+
+.productPage-main-content .section-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.productPage-main-content .product-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.productPage-main-content .product-row {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.productPage-main-content .product-card {
+  width: 24%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.productPage-main-content .product-card:hover {
+  transform: translateY(-5px);
+}
+
+.productPage-main-content .product-image {
+  width: 100%;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover; 
+}
+
+.productPage-main-content .product-title {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.productPage-main-content .product-rating {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #f39c12;
+  margin-bottom: 8px;
+}
+
+.productPage-main-content .product-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2ecc71;
+}
+
+.productPage-main-content .star {
+  font-size: 20px;
+  color: #ddd;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.productPage-main-content .star.active {
+  color: #f39c12;
+}
+
+.productPage-main-content .navigation-buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.productPage-main-content .prev-button,
+.productPage-main-content .next-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #007bff;
+  padding: 0 20px;
+}
+
+.productPage-main-content .prev-button:hover,
+.productPage-main-content .next-button:hover {
+  color: #0056b3;
+}
+
+.productPage-main-content .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.productPage-main-content .page-number {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 5px;
+  font-size: 1rem;
+  color: #007bff;
+}
+
+.productPage-main-content .page-number.active {
+  background-color: #f0f0f0;
+  border-radius: 50%;
+}
+.custom-link {
+  color: inherit; 
+  text-decoration: none; 
+
+}
+
+.custom-link:hover {
+  text-decoration: underline; 
+}
+
+.content-left {
+  font-weight:500;
+  font-size: 20px;
+  color: black;
+  margin-top: 0px;
+}
+.fa-house{
+  color: black;
+}
+.buyNow-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.buyNow-dialog-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 40%;
+  border: 4px solid rgb(224, 177, 59);
+}
+
+.buyNow-dialog-content h2 {
+  margin-bottom: 20px;
+}
+
+.buyNow-dialog-content p {
+  margin-bottom: 30px;
+}
+
+.btn-confirmBuyNow, .btn-cancelBuyNow {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-confirmBuyNow {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-confirmBuyNow:hover {
+  background-color: #00c896;
+}
+
+.btn-cancelBuyNow {
+  background-color: #f44336;
+  color: white;
+}
+.btn-cancelBuyNow:hover {
+  background-color: #b25c56;
+
+}
+.content-card {
+  display: flex;
+}
+.content-card .content-card-left img{
+width: 200px;
+}
+.content-card .content-card-left, .content-card .content-card-right{
+  width: 50%;
+}
+.content-card-right{
+  text-align: left;
+}
+.content-card-right p span{
+  font-weight: bold;
+}
+@media screen and (min-width: 740px) and (max-width: 1024px) {
+  
+  .productPage-main-content .product-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+  }
+   .productPage-main-content .product-card {
+    width: 100%;
+  }
+  .productPage-main-content .next-button,.prev-button {
+    display: none;
+  }
+  .productPage-main-content .content-left {
+    font-size: 15px;
+  }
+  .productPage-main-content .buyNow-dialog-content{
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .productPage-main-content {
+  margin: 0px;
+  margin-top: 70px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+
+ 
+
+
+  }
+  .productPage-main-content .product-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   grid-gap: 25px;
+   width: 100%;
+   margin-top: 20px;
+ 
+  }
+   .productPage-main-content .product-card {
+    width: 100%;
+  
+    margin: 0;
+    
+    
+  }
+  .productPage-main-content .product-card h3, .product-price, button{
+    font-size: 10px;
+  }
+  .productPage-main-content .product-card img{
+    width: 100px;
+    height: 100px;
+  }
+  .productPage-main-content .next-button,.prev-button {
+    display: none;
+  }
+  .productPage-main-content .content-left {
+    font-size: 15px;
+  }
+  .productPage-main-content .dropdown-header{
+    padding: 5px;
+  }
+  .productPage-main-content .content-middle{
+    width: 50%;
+  }
+  .productPage-main-content .content-left{
+    width: 30%;
+    font-size: 10px;
+ 
+  }
+  .productPage-main-content .content-right {
+    width: 80%; /* Bạn có thể điều chỉnh giá trị width này theo ý muốn */
+  }
+  
+ 
+ 
+  .input-container #input-find::placeholder {
+    color: transparent; 
+  }
+  .productPage-main-content .buyNow-dialog-content{
+    width: 85%;
+  }
+  .productPage-main-content .buyNow-dialog-content p{
+    margin-top: 10px;
+  }
+}
